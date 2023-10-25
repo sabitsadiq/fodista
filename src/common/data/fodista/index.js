@@ -59,16 +59,6 @@ export const menu_items = [
     path: "#testimonial",
     offset: "70",
   },
-  {
-    label: "Pricing",
-    path: "#pricing",
-    offset: "70",
-  },
-  {
-    label: "Faq",
-    path: "#faq",
-    offset: "70",
-  },
 ];
 
 export const clients = [envato, evernote, forbes, geekwire, slack, usaToday];
