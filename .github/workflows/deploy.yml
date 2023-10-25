@@ -21,5 +21,8 @@ jobs:
           docker build -t ${{ secrets.DOCKER_USERNAME }}/${{ secrets.DOCKER_REPO_NAME }}:latest .
           docker push ${{ secrets.DOCKER_USERNAME }}/${{ secrets.DOCKER_REPO_NAME }}:latest
 
+      - name: Deploy to Server
+        run: docker run caprover/cli-caprover:v2.1.1 caprover deploy --caproverUrl ${{ secrets.CAPROVER_URL }} --caproverPassword ${{ secrets.CAPROVER_PASS }} --caproverApp ${{ secrets.CAPROVER_APP }} --imageName "${{ secrets.DOCKER_USERNAME }}/${{ secrets.DOCKER_REPO_NAME }}:latest"
+
       - name: Logout from Docker Hub
         run: docker logout
