@@ -5,14 +5,13 @@ import Heading from "common/components/Heading";
 import Text from "common/components/Text";
 import Input from "common/components/Input";
 import Button from "common/components/Button";
-import NextImage from "common/components/NextImage";
 import Section, {
   BannerContentWrapper,
   BannerContent,
   Subscribe,
   Figure,
 } from "./banner.style";
-import dashboard from "common/assets/image/webAppCreative/dashboard-2.png";
+import dashboard from "common/assets/image/webAppCreative/dashboard.png";
 import envelope from "common/assets/image/webAppCreative/icons/envelope.svg";
 import fodista from "utils/fodista";
 
@@ -76,7 +75,7 @@ const Banner = () => {
             </Subscribe>
           </BannerContent>
           <Figure className="animate__animated animate__fadeInUp animate__fast">
-            <NextImage src={dashboard} alt="dashboard" />
+            <img src={dashboard?.src} alt="dashboard" />
           </Figure>
         </BannerContentWrapper>
       </Container>

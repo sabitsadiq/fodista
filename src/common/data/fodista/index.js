@@ -12,7 +12,7 @@ import icon5 from "common/assets/image/webAppCreative/icons/5.svg";
 import icon6 from "common/assets/image/webAppCreative/icons/6.svg";
 import icon7 from "common/assets/image/webAppCreative/icons/7.svg";
 import icon8 from "common/assets/image/webAppCreative/icons/8.svg";
-import dashboardImg from "common/assets/image/webAppCreative/dashboard-2.png";
+import tablesImg from "common/assets/image/webAppCreative/tables.png";
 import customersImg from "common/assets/image/webAppCreative/customers.png";
 import ordersImg from "common/assets/image/webAppCreative/orders.png";
 import asana from "common/assets/image/webAppCreative/icons/asana.png";
@@ -155,7 +155,7 @@ export const dashboard = {
       id: 1,
       title: "Tables",
       content: {
-        image: dashboardImg,
+        image: tablesImg,
       },
     },
     {
