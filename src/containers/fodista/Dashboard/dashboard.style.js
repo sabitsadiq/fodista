@@ -210,14 +210,17 @@ export const CardWrapper = styled.div`
 `;
 export const CardTextWrapper = styled.div`
   width: full;
-  padding: 8px;
+  padding: 12px 20px;
 `;
 export const CardTitle = styled.h2`
   font: 400;
   font-size: 26px;
 `;
 export const CardDesc = styled.p`
-  font: 400;
+  font: 500;
+  color: rgba(94, 113, 141, 1);
+  font-size: 16px;
+  line-height: 16.94px;
 `;
 export const CardMain = styled.div`
   gap: 30px;
@@ -230,7 +233,8 @@ export const CardMain = styled.div`
     width: full;
   }
   @media (max-width: 480px) {
-    grid-template-columns: repeat(1, 250px);
+    display: flex;
+    flex-direction: column;
     margin-top: 60px;
   }
 `;

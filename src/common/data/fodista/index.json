@@ -191,19 +191,19 @@
           },
           {
             "id": 6,
-            "image": "/images/darkMode.png",
+            "image": "/images/mergeTable.svg",
             "title": "Merge Tables",
             "desc": "Fodista table filter made tables ordering easy while saving a lot of time specially in a huge restaurants landacapes."
           },
           {
             "id": 7,
-            "image": "/images/darkMode.png",
+            "image": "/images/mergeTable.svg",
             "title": "Separate Tables",
             "desc": "Fodista table filter made tables ordering easy while saving a lot of time specially in a huge restaurants landacapes."
           },
           {
             "id": 8,
-            "image": "/images/darkMode.png",
+            "image": "/images/mergeTable.svg",
             "title": "Move Orders",
             "desc": "Fodista table filter made tables ordering easy while saving a lot of time specially in a huge restaurants landacapes."
           }
