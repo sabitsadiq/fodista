@@ -1,8 +1,8 @@
-import { rgba } from 'polished';
-import styled from 'styled-components';
-import { themeGet } from '@styled-system/theme-get';
+import { rgba } from "polished";
+import styled from "styled-components";
+import { themeGet } from "@styled-system/theme-get";
 
-import dashboardPattern from 'common/assets/image/webAppCreative/dashboard-pattern.png';
+import dashboardPattern from "common/assets/image/webAppCreative/dashboard-pattern.png";
 
 const Section = styled.section`
   background: url(${dashboardPattern?.src}) no-repeat center bottom;
@@ -39,7 +39,7 @@ export const BannerContent = styled.div`
     padding-top: 100px;
   }
   h2 {
-    color: ${themeGet('colors.headingColor')};
+    color: ${themeGet("colors.headingColor")};
     font-weight: 700;
     font-size: 54px;
     line-height: 1.3;
@@ -59,7 +59,7 @@ export const BannerContent = styled.div`
     font-weight: 500;
     font-size: 18px;
     line-height: 2.11;
-    color: ${themeGet('colors.textColor')};
+    color: ${themeGet("colors.textColor")};
     max-width: 600px;
     margin: 0 auto;
 
@@ -104,7 +104,7 @@ export const Subscribe = styled.div`
       min-height: 60px;
       padding: 0 24px;
       &::placeholder {
-        color: ${rgba('#02073E', 0.4)};
+        color: ${rgba("#02073E", 0.4)};
         opacity: 1; /* Firefox */
       }
       @media only screen and (max-width: 1280px) {
@@ -147,7 +147,6 @@ export const Figure = styled.figure`
   margin: 30px 0 0;
   img {
     @media (min-width: 1280px) {
-      max-width: 95%;
       margin-left: auto;
       margin-right: auto;
     }

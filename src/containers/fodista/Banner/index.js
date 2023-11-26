@@ -11,9 +11,11 @@ import Section, {
   Subscribe,
   Figure,
 } from "./banner.style";
+import smpLogo from "common/assets/image/smpLogoMain.svg";
 import dashboard from "common/assets/image/webAppCreative/dashboard.png";
 import envelope from "common/assets/image/webAppCreative/icons/envelope.svg";
 import fodista from "utils/fodista";
+import NextImage from "common/components/NextImage";
 
 const Banner = () => {
   const [phone, setPhone] = useState("");
@@ -43,6 +45,11 @@ const Banner = () => {
       <Container width="1400px">
         <BannerContentWrapper>
           <BannerContent>
+            <NextImage
+              className="animate__animated animate__fadeInUp"
+              src={smpLogo}
+              alt="smplogo"
+            />
             <Heading
               className="animate__animated animate__fadeInUp"
               content="Empowering Restaurants, Simplifying Success Using AI"

@@ -199,3 +199,46 @@ export const ReactTabs = styled(Tabs)`
     }
   }
 `;
+export const CardWrapper = styled.div`
+  // width: 300px;
+  background-color: rgba(54, 102, 161, 0.1);
+  // display: flex;
+  padding: 2px;
+  border-radius: 20px;
+  line-height: 28.6px;
+  z-index: 1;
+`;
+export const CardTextWrapper = styled.div`
+  width: full;
+  padding: 8px;
+`;
+export const CardTitle = styled.h2`
+  font: 400;
+  font-size: 26px;
+`;
+export const CardDesc = styled.p`
+  font: 400;
+`;
+export const CardMain = styled.div`
+  gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 80px;
+  @media (max-width: 768px) {
+    margin-top: 40px;
+    grid-template-columns: repeat(2, 1fr);
+    width: full;
+  }
+  @media (max-width: 480px) {
+    grid-template-columns: repeat(1, 250px);
+    margin-top: 60px;
+  }
+`;
+export const CardSection = styled.div`
+  width: full;
+`;
+export const ImageCard = styled.div`
+  width: full;
+  position: relative;
+  height: 420px;
+`;

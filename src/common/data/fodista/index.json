@@ -145,6 +145,157 @@
       }
     ]
   },
+  "newDashboard": {
+    "sectionTitle": "Get on the same page, fast.",
+    "sectionDesc": "Each room is loaded with collaborative surfaces so you can quickly take notes, capture to-dos, and share ideas. Pick one of our stock themes, or create your custom theme with the most advanced theme editor.",
+    "tabs": [
+      {
+        "id": 1,
+        "title": "Tablets",
+        "content": [
+          {
+            "id": 0,
+            "image": "/images/darkMode.png",
+            "title": "Dark Mode",
+            "desc": "Switch between light and dark mode easily by one tap, which made possible by our user-centered design."
+          },
+          {
+            "id": 1,
+            "image": "/images/filterTable.png",
+            "title": "Table Filters",
+            "desc": "Fodista table filter made tables ordering easy while saving a lot of time specially in a huge restaurants landacapes."
+          },
+          {
+            "id": 2,
+            "image": "/images/searchTables.png",
+            "title": "Search Tables",
+            "desc": "Fodista table filter made tables ordering easy while saving a lot of time specially in a huge restaurants landacapes."
+          },
+          {
+            "id": 3,
+            "image": "/images/advancedAi.png",
+            "title": "Advanced AI Recommendation",
+            "desc": "Fodista table filter made tables ordering easy while saving a lot of time specially in a huge restaurants landscapes."
+          },
+          {
+            "id": 4,
+            "image": "/images/counterTable.png",
+            "title": "Table counter",
+            "desc": "Fodista table filter made tables ordering easy while saving a lot of time specially in a huge restaurants landacapes."
+          },
+          {
+            "id": 5,
+            "image": "/images/badgeTable.png",
+            "title": "Table Badges",
+            "desc": "Fodista table filter made tables ordering easy while saving a lot of time specially in a huge restaurants landacapes."
+          },
+          {
+            "id": 6,
+            "image": "/images/darkMode.png",
+            "title": "Merge Tables",
+            "desc": "Fodista table filter made tables ordering easy while saving a lot of time specially in a huge restaurants landacapes."
+          },
+          {
+            "id": 7,
+            "image": "/images/darkMode.png",
+            "title": "Separate Tables",
+            "desc": "Fodista table filter made tables ordering easy while saving a lot of time specially in a huge restaurants landacapes."
+          },
+          {
+            "id": 8,
+            "image": "/images/darkMode.png",
+            "title": "Move Orders",
+            "desc": "Fodista table filter made tables ordering easy while saving a lot of time specially in a huge restaurants landacapes."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Customers",
+        "content": [
+          {
+            "id": 0,
+            "image": "/images/detailedCustomer.png",
+            "title": "Detailed Customer Card",
+            "desc": "Comprehensive profile for each customer, including contact details, preferences, and transaction history for personalized service and marketing."
+          },
+          {
+            "id": 1,
+            "image": "/images/advancedCustomerFilter.png",
+            "title": "Advanced Customer Filters",
+            "desc": "Sophisticated filtering options to segment customers based on various criteria, enabling targeted marketing and efficient customer management."
+          },
+          {
+            "id": 2,
+            "image": "/images/searchCustomer.png",
+            "title": "Search Customers",
+            "desc": "Switch between light and dark mode easily by one tap, which made possible by our user-centered design."
+          },
+          {
+            "id": 3,
+            "image": "/images/customerGeolocation.png",
+            "title": "Customers Geo-locations",
+            "desc": "Quick and efficient customer search tool, using names, contacts, or other identifiers, to swiftly access customer information."
+          },
+          {
+            "id": 4,
+            "image": "/images/orderHistory.png",
+            "title": "Orders History and Reports",
+            "desc": "Detailed records of all customer orders, providing insights for inventory management, sales trends analysis, and customer behavior tracking."
+          },
+          {
+            "id": 5,
+            "image": "/images/loyaltyProgress.png",
+            "title": "Loyalty Programs",
+            "desc": "Implement and manage customer loyalty programs, rewarding repeat customers, encouraging more visits, and enhancing customer retention."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Orders",
+        "content": [
+          {
+            "id": 0,
+            "image": "/images/beautifulItem.png",
+            "title": "Simple Yet Beautiful Item Card",
+            "desc": "Switch between light and dark mode easily by one tap, which made possible by our user-centered design. "
+          },
+          {
+            "id": 1,
+            "image": "/images/orderFilter.png",
+            "title": "Advanced Orders Filters",
+            "desc": "Switch between light and dark mode easily by one tap, which made possible by our user-centered design."
+          },
+          {
+            "id": 2,
+            "image": "/images/searchMenu.png",
+            "title": "Search Menu",
+            "desc": "Easily search and find menu items using keywords, streamlining order processing and enhancing customer service efficiency."
+          },
+
+          {
+            "id": 3,
+            "image": "/images/orderLine.png",
+            "title": "Order Line",
+            "desc": " A detailed breakdown of each order, showing individual items, quantities, and prices for clear and accurate order tracking."
+          },
+          {
+            "id": 4,
+            "image": "/images/publicMenu.png",
+            "title": "Public QR Menu",
+            "desc": "Contactless, digital menu accessible via QR code, offering customers a safe, convenient way to view and order items."
+          },
+          {
+            "id": 5,
+            "image": "/images/autoPricing.png",
+            "title": "Auto-Pricing",
+            "desc": "Automated pricing system that adjusts menu prices based on purchase, inventory, or special promotions, optimizing revenue and efficiency."
+          }
+        ]
+      }
+    ]
+  },
   "testimonials": [
     {
       "id": 1,
