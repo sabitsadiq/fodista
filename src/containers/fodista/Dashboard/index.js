@@ -48,7 +48,7 @@ const Dashboard = () => {
                 <>
                   {/* <div>testing testing</div> */}
                   <TabPanel>
-                    <figure className="animate__animated animate__fadeInUp">
+                    <div className="animate__animated animate__fadeInUp">
                       <CardMain>
                         {tab.content.map((item) => (
                           // console.log(item);
@@ -74,7 +74,7 @@ const Dashboard = () => {
                         ))}
                         ;
                       </CardMain>
-                    </figure>
+                    </div>
                   </TabPanel>
                 </>
               );
