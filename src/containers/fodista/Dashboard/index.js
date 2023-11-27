@@ -6,6 +6,7 @@ import Text from "common/components/Text";
 import Heading from "common/components/Heading";
 import Section, {
   CardWrapper,
+  CardInnerWrapper,
   CardDesc,
   CardTextWrapper,
   CardTitle,
@@ -55,17 +56,19 @@ const Dashboard = () => {
                             {/* <div>testing</div> */}
 
                             <CardWrapper>
-                              <ImageCard>
-                                <NextImage
-                                  src={item.image}
-                                  alt={item.title}
-                                  layout="fill"
-                                />
-                              </ImageCard>
-                              <CardTextWrapper>
-                                <CardTitle>{item.title}</CardTitle>
-                                <CardDesc>{item.desc}</CardDesc>
-                              </CardTextWrapper>
+                              <CardInnerWrapper>
+                                <ImageCard>
+                                  <NextImage
+                                    src={item.image}
+                                    alt={item.title}
+                                    layout="fill"
+                                  />
+                                </ImageCard>
+                                <CardTextWrapper>
+                                  <CardTitle>{item.title}</CardTitle>
+                                  <CardDesc>{item.desc}</CardDesc>
+                                </CardTextWrapper>
+                              </CardInnerWrapper>
                             </CardWrapper>
                           </>
                         ))}

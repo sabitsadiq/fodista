@@ -49,6 +49,7 @@ const Banner = () => {
               className="animate__animated animate__fadeInUp"
               src={smpLogo}
               alt="smplogo"
+              width="450px"
             />
             <Heading
               className="animate__animated animate__fadeInUp"

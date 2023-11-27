@@ -200,26 +200,44 @@ export const ReactTabs = styled(Tabs)`
   }
 `;
 export const CardWrapper = styled.div`
-  // width: 300px;
-  background-color: rgba(54, 102, 161, 0.1);
+  // width: 26rem;
+  // height: 31.25rem;
+
   // display: flex;
-  padding: 2px;
-  border-radius: 20px;
+  padding: 10px;
+  border: 1px solid rgba(54, 102, 161, 0.1);
+  // background-color: blue;
+  border-radius: 30px;
   line-height: 28.6px;
   z-index: 1;
+  @media only screen and (max-width: 768px) {
+    width: full;
+    // height: 31.25rem;
+  }
+`;
+export const CardInnerWrapper = styled.div`
+  border: 1px solid white;
+  background-color: rgba(54, 102, 161, 0.1);
+  border-radius: 20px;
+  width: full;
+  height: 480px;
 `;
 export const CardTextWrapper = styled.div`
-  width: full;
-  padding: 12px 20px;
+  width: 90%;
+  height: 73px;
+  margin: 0px auto;
+  // padding: 12px 20px;
+  margin-top: 12px;
 `;
 export const CardTitle = styled.h2`
-  font: 400;
-  font-size: 26px;
+  font: 700;
+  font-size: 22px;
+  line-height: 28.6px;
 `;
 export const CardDesc = styled.p`
   font: 500;
   color: rgba(94, 113, 141, 1);
-  font-size: 16px;
+  font-size: 14px;
   line-height: 16.94px;
 `;
 export const CardMain = styled.div`
@@ -227,10 +245,16 @@ export const CardMain = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-top: 80px;
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     margin-top: 40px;
     grid-template-columns: repeat(2, 1fr);
-    width: full;
+    width: 100%;
+  }
+  @media (max-width: 768px) {
+    margin-top: 40px;
+    gap: 10px;
+    grid-template-columns: repeat(2, 345px);
+    width: 100%;
   }
   @media (max-width: 480px) {
     display: flex;
@@ -242,7 +266,7 @@ export const CardSection = styled.div`
   width: full;
 `;
 export const ImageCard = styled.div`
-  width: full;
+  width: 100%;
   position: relative;
-  height: 420px;
+  height: 350px;
 `;
