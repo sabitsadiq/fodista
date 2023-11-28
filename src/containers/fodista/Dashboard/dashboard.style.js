@@ -220,14 +220,13 @@ export const CardInnerWrapper = styled.div`
   background-color: rgba(54, 102, 161, 0.1);
   border-radius: 20px;
   width: full;
-  height: 480px;
+  // height: 480px;
 `;
 export const CardTextWrapper = styled.div`
   width: 90%;
-  height: 73px;
   margin: 0px auto;
-  // padding: 12px 20px;
   margin-top: 12px;
+  padding-bottom: 20px;
 `;
 export const CardTitle = styled.h2`
   font: 700;
@@ -266,7 +265,10 @@ export const CardSection = styled.div`
   width: full;
 `;
 export const ImageCard = styled.div`
-  width: 100%;
-  position: relative;
-  height: 350px;
+  max-width: 100%;
+  max-height: 350px;
+  img {
+    object-fit: contain;
+    width: 100%;
+  }
 `;

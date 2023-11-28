@@ -31,7 +31,7 @@ const webAppCreative = () => {
     <ThemeProvider theme={theme}>
       <Fragment>
         <Head>
-          <title>Web App Creative | A react next landing page</title>
+          <title>Empowering Restaurants, Simplifying Success Using AI</title>
           <meta name="Description" content="React next landing page" />
           <meta name="theme-color" content="#ec5555" />
           {/* Load google fonts */}

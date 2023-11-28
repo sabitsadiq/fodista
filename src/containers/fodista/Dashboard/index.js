@@ -19,13 +19,10 @@ import Section, {
 import Card from "common/components/Card";
 
 import { newDashboard } from "common/data/fodista/index.json";
-// import { CardTextWrapper, CardTitle } from "./dashboard.style";
-// import { CardWrapper } from "common/components/Card/card.style";
 
 const Dashboard = () => {
   const { sectionTitle, sectionDesc, tabs } = newDashboard;
-  console.log(tabs[0].content);
-  console.log(tabs.content);
+
   return (
     <Section id="features">
       <Container width="1400px">
@@ -61,7 +58,9 @@ const Dashboard = () => {
                                   <NextImage
                                     src={item.image}
                                     alt={item.title}
-                                    layout="fill"
+                                    width="400px"
+                                    height="350px"
+                                    object-fit="contain"
                                   />
                                 </ImageCard>
                                 <CardTextWrapper>
