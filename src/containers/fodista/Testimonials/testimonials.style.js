@@ -1,7 +1,7 @@
-import styled from 'styled-components';
-import Slider from 'react-slick';
-import { rgba } from 'polished';
-import { themeGet } from '@styled-system/theme-get';
+import styled from "styled-components";
+import Slider from "react-slick";
+import { rgba } from "polished";
+import { themeGet } from "@styled-system/theme-get";
 
 const Section = styled.section`
   padding-top: 60px;
@@ -48,7 +48,7 @@ export const ReactSlick = styled(Slider)`
         margin-left: 7px;
       }
       button {
-        background-color: ${rgba('#000', 0.2)};
+        background-color: ${rgba("#000", 0.2)};
         border: 0;
         border-radius: 50px;
         cursor: pointer;
@@ -61,7 +61,7 @@ export const ReactSlick = styled(Slider)`
     }
     .slick-active {
       button {
-        background-color: ${themeGet('colors.black')};
+        background-color: ${themeGet("colors.black")};
         width: 18px;
       }
     }
@@ -72,8 +72,8 @@ export const Item = styled.div`
   background-color: #f6f7f9;
   border-radius: 15px;
   padding: 40px 35px 45px;
-  font-family: 'Inter', sans-serif;
-  min-height: 432px;
+  font-family: "Inter", sans-serif;
+  min-height: 28rem !important;
   display: flex !important;
   flex-direction: column;
   @media only screen and (max-width: 480px) {
@@ -86,7 +86,7 @@ export const Item = styled.div`
     }
   }
   blockquote {
-    color: ${themeGet('colors.headingColor')};
+    color: ${themeGet("colors.headingColor")};
     font-size: 18px;
     line-height: 1.94;
     margin: 0 0 30px;
@@ -99,11 +99,11 @@ export const Item = styled.div`
     }
   }
   h4 {
-    color: ${themeGet('colors.headingColor')};
+    color: ${themeGet("colors.headingColor")};
     margin-bottom: 12px;
   }
   p {
-    color: ${themeGet('colors.textColor')};
+    color: ${themeGet("colors.textColor")};
     line-height: 19px;
     margin-bottom: 0;
   }
