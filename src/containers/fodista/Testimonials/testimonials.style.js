@@ -72,11 +72,12 @@ export const Item = styled.div`
   background-color: #f6f7f9;
   border-radius: 15px;
   padding: 40px 35px 45px;
+  padding: 20px;
   font-family: "Inter", sans-serif;
   min-height: 28rem !important;
   display: flex !important;
   flex-direction: column;
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 640px) {
     padding: 30px 25px 35px;
   }
   figure {
