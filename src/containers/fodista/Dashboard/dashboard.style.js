@@ -224,14 +224,24 @@ export const CardInnerWrapper = styled.div`
 `;
 export const CardTextWrapper = styled.div`
   width: 90%;
+  min-height: 7rem;
   margin: 0px auto;
   margin-top: 12px;
   padding-bottom: 20px;
+  @media (max-width: 1226px) {
+    min-height: 8.5rem;
+  }
+  @media (max-width: 1024px) {
+    // min-height: 7rem;
+  }
 `;
 export const CardTitle = styled.h2`
   font: 700;
   font-size: 22px;
   line-height: 28.6px;
+  @media (max-width: 1226px) {
+    font-size: 19px;
+  }
 `;
 export const CardDesc = styled.p`
   font: 500;
@@ -255,9 +265,8 @@ export const CardMain = styled.div`
     grid-template-columns: repeat(2, 345px);
     width: 100%;
   }
-  @media (max-width: 480px) {
-    display: flex;
-    flex-direction: column;
+  @media (max-width: 540px) {
+    grid-template-columns: repeat(1, 1fr);
     margin-top: 60px;
   }
 `;

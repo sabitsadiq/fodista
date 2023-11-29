@@ -71,7 +71,6 @@ const Dashboard = () => {
                             </CardWrapper>
                           </>
                         ))}
-                        ;
                       </CardMain>
                     </div>
                   </TabPanel>
