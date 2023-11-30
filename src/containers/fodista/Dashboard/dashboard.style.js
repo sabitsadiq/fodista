@@ -262,12 +262,14 @@ export const CardMain = styled.div`
   @media (max-width: 768px) {
     margin-top: 40px;
     gap: 10px;
-    grid-template-columns: repeat(2, 345px);
-    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    width: 80%;
+    margin: 0px auto;
   }
   @media (max-width: 540px) {
     grid-template-columns: repeat(1, 1fr);
     margin-top: 60px;
+    width: 100%;
   }
 `;
 export const CardSection = styled.div`

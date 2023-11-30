@@ -74,11 +74,12 @@ export const Item = styled.div`
   padding: 40px 35px 45px;
   padding: 20px;
   font-family: "Inter", sans-serif;
-  min-height: 28rem !important;
+  min-height: 28rem;
   display: flex !important;
   flex-direction: column;
-  @media only screen and (max-width: 640px) {
+  @media only screen and (max-width: 650px) {
     padding: 30px 25px 35px;
+    min-height: 33rem !important;
   }
   figure {
     margin: 0 0 35px;
