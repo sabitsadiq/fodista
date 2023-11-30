@@ -445,7 +445,7 @@ export const footerTop = {
   contactInfo: {
     title: "Contact info",
     address: `5th Settlement, Cairo, Egypt`,
-    phone: `+20 128 389 1973`,
+    phone: `+20 128 389 1971`,
     openingTime: `7 Days - 10am - 10pm`,
     email: `info@fodista.com`,
   },

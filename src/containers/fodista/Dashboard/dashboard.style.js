@@ -200,19 +200,13 @@ export const ReactTabs = styled(Tabs)`
   }
 `;
 export const CardWrapper = styled.div`
-  // width: 26rem;
-  // height: 31.25rem;
-
-  // display: flex;
   padding: 10px;
   border: 1px solid rgba(54, 102, 161, 0.1);
-  // background-color: blue;
   border-radius: 30px;
   line-height: 28.6px;
   z-index: 1;
   @media only screen and (max-width: 768px) {
     width: full;
-    // height: 31.25rem;
   }
 `;
 export const CardInnerWrapper = styled.div`
@@ -220,7 +214,6 @@ export const CardInnerWrapper = styled.div`
   background-color: rgba(54, 102, 161, 0.1);
   border-radius: 20px;
   width: full;
-  // height: 480px;
 `;
 export const CardTextWrapper = styled.div`
   width: 90%;
@@ -230,9 +223,6 @@ export const CardTextWrapper = styled.div`
   padding-bottom: 20px;
   @media (max-width: 1226px) {
     min-height: 8.5rem;
-  }
-  @media (max-width: 1024px) {
-    // min-height: 7rem;
   }
 `;
 export const CardTitle = styled.h2`
